@@ -2,8 +2,6 @@
 
 **Effem** is a 16-voice polyphonic synthesizer written in [Faust](https://faust.grame.fr/). It features a versatile dual-oscillator FM/AM architecture, a dedicated pitch-envelope "bubble" oscillator, a noise channel, and a lush, custom feedback reverb algorithm (`Viverb`). 
 
-Designed for both rich, evolving pads and aggressive, modulated basses, Effem provides a comprehensive suite of sound-shaping tools in a single, efficient DSP file.
-
 ---
 
 ## ✨ Features
