@@ -2,8 +2,6 @@
 
 **Effem** is a 16-voice polyphonic synthesizer written in [Faust](https://faust.grame.fr/). It features a versatile dual-oscillator FM/AM architecture, a dedicated pitch-envelope "bubble" oscillator, a noise channel, and a lush, custom feedback reverb algorithm (`Viverb`). 
 
----
-
 ## ✨ Features
 
 - **16-Voice Polyphony**: Full MIDI support with smooth voice stealing.
@@ -15,8 +13,6 @@
   - Resonant low-pass filter with dedicated LFO modulation.
   - **Viverb**: A custom, high-quality feedback reverb algorithm featuring nested all-pass diffusers, modulated delay lines, and comprehensive damping/size controls.
 - **Standard ADSR Envelope**: Full control over amplitude shaping.
-
----
 
 ## 🌊 Signal Flow
 
@@ -40,8 +36,6 @@
                                        ▼
                                [Master Output]
 ```
-
----
 
 ## 🎚️ Controls Reference
 
@@ -89,7 +83,6 @@ The synthesizer UI is logically grouped into the following sections:
 | **Master** | Global output volume. |
 | **Viverb** | Custom reverb with controls for Delay Time, Damping, Size, Diffusion, Feedback, Modulation Depth, Modulation Frequency, and Dry/Wet mix. |
 
----
 
 ## 🚀 Installation & Usage
 
@@ -122,7 +115,3 @@ faust2webaudio effem.dsp -o effem.html
 
 *Note: For DAW integration, load the compiled plugin and ensure your host supports polyphonic MIDI input.*
 
----
-
-
-This project is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
